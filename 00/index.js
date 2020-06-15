@@ -1,0 +1,21 @@
+"use strict";
+let cry = true;
+console.log(cry);
+let num = 3.8;
+console.log(num);
+let str = 'Welcome to TS';
+console.log(str);
+let arr1 = ['Little', 'Control'];
+console.log(arr1);
+let arr2 = [1, 2, 3];
+console.log(arr2);
+let arr3 = [str, num, cry];
+console.log(arr3);
+var Info;
+(function (Info) {
+    Info[Info["cool"] = 1] = "cool";
+    Info[Info["ugly"] = 2] = "ugly";
+})(Info || (Info = {}));
+console.log(Info);
+let myInfo = Info.cool;
+console.log(myInfo);
